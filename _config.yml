@@ -1,0 +1,10 @@
+# Site settings
+title: Nabil Hachicha
+email: nabil.hachicha@gmail.com
+description: "Developer of SnappyDB.com a NoSQL database for Android, works @TheAppbusiness.com, London."
+baseurl: ""
+url: "http://nabilhachicha.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
