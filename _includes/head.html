@@ -1,12 +1,62 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      header { zoom: 1.2; }
+      header h1 { margin-bottom: 5px; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul {
+        zoom: 0.7;
+        margin-top: 25px;
+      }
+      section p { margin-top: 10px; }
+      section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 10px; }
+      footer { bottom: 20px; }
+      footer p { margin-bottom: 5px; }
+      .half-width {
+        float: left;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        margin: 7px;
+        margin-bottom: 10px;
+      }
+      .half-width h4 {
+        margin-bottom: 5px;
+      }
+      .half-width ul {
+        padding-left: 0;
+      }
+      .half-width ul li {
+        list-style: inside;
+        font-size: 15px;
+      }
+      .clear-fix {
+        clear: both;
+      }
+    </style>
+    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</head>
+      ga('create', 'UA-51524675-1', 'nabilhachicha.com');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </head>
